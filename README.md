@@ -72,7 +72,7 @@ First, install the package via composer:
           "name": "wahyuief/laravel-sitemap",
           "version":"master",
           "source": {
-              "url": "[https://github.com/l3pp4rd/DoctrineExtensions.git](https://github.com/wahyuief/laravel-sitemap.git)",
+              "url": "https://github.com/wahyuief/laravel-sitemap.git",
               "type": "git",
               "reference":"master"
             }

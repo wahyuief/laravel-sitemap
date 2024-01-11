@@ -60,12 +60,28 @@ SitemapGenerator::create('https://example.com')
 
 The generator has [the ability to execute JavaScript](https://github.com/spatie/laravel-sitemap#executing-javascript) on each page so links injected into the dom by JavaScript will be crawled as well.
 
-## Installation
+## Manually Installation
 
 First, install the package via composer:
 
 ``` bash
-composer require spatie/laravel-sitemap
+"repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "wahyuief/laravel-sitemap",
+          "version":"master",
+          "source": {
+              "url": "[https://github.com/l3pp4rd/DoctrineExtensions.git](https://github.com/wahyuief/laravel-sitemap.git)",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    }
+],
+"require": {
+    "wahyuief/laravel-sitemap": "master"
+}
 ```
 
 The package will automatically register itself.
